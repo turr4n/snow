@@ -33,6 +33,8 @@ class House {
         // left wall
         g.beginPath();
         g.moveTo(x + 2 * factor, y +  3 * factor);
+        
+        
         g.lineTo(x + 2 * factor, y +  5 * factor);
         g.lineTo(x + 6 * factor, y +  6 * factor);
         g.lineTo(x + 6 * factor, y +  4 * factor);
@@ -353,5 +355,7 @@ let tree = new Tree();
             3
         );
 
-        
-        
+
+    g.font = "40px Sans-Serif";  
+
+    g.fillText("Merry Christmas!!", 600, 580)
